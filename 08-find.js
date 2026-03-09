@@ -21,3 +21,14 @@ console.log('Primeiro número múltiplo de 5:',
 console.log('Primeiro número maior que 20:',
     numeros.find(i => i > 20)
 )
+
+// Encontrando a primeira fruta que começa com a letra 'm'
+console.log('Primeira fruta que começa com a letra "m":',
+    frutas.find(f => f.charAt(0) === 'm')
+)
+
+//Encontrando a primeira fruta que termina com "r"  
+console.log('Primeira fruta que termina com a letra "r":',
+    frutas.find(f => f.slice(-1) === 'r')
+)
+
